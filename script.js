@@ -1,4 +1,3 @@
-//your JS code here. If required.
 let heading = document.createElement('h1');
 heading.innerText = 'MyBookList';
 document.body.appendChild(heading);
@@ -120,6 +119,7 @@ table.appendChild(tbody);
 
     let td4 = document.createElement('td');
     td4.innerHTML = '<button>X</button>';
+    td4.className = 'delete';
     td4.style.color = 'red';
     tr.appendChild(td4);
 
