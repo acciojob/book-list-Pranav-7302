@@ -89,7 +89,7 @@ let th4 = document.createElement('th');
 th4.innerText = 'Action';
 tr.appendChild(th4);
 let tbody = document.createElement('tbody');
-tbody.className = 'book-list';
+tbody.id = 'book-list';
 table.appendChild(tbody);
 
     button.addEventListener('click', function(e){
